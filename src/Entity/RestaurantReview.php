@@ -37,6 +37,9 @@ class RestaurantReview
     #[ORM\JoinColumn(nullable: false)]
     private ?Restaurant $restaurant = null;
 
+    #[ORM\Column(length: 1)]
+    private ?string $status = null;
+
     public function getId(): ?int
     {
         return $this->id;
@@ -122,6 +125,23 @@ class RestaurantReview
     public function setRestaurant(?Restaurant $restaurant): self
     {
         $this->restaurant = $restaurant;
+
+        return $this;
+    }
+
+    public function __toString()
+    {
+        return $this->title;
+    }
+
+    public function getStatus(): ?string
+    {
+        return $this->status;
+    }
+
+    public function setStatus(string $status): self
+    {
+        $this->status = $status;
 
         return $this;
     }

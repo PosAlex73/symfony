@@ -78,4 +78,9 @@ class UserProfile
 
         return $this;
     }
+
+    public function __toString()
+    {
+        return $this->getConsumer()->getUserIdentifier();
+    }
 }

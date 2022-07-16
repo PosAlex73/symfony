@@ -39,6 +39,16 @@ class CategoryRepository extends ServiceEntityRepository
         }
     }
 
+    public function getForIndex()
+    {
+        $cats = $this->createQueryBuilder('d')
+            ->setMaxResults(10)
+            ->getQuery()
+            ->getResult();
+
+        return $cats;
+    }
+
 //    /**
 //     * @return Category[] Returns an array of Category objects
 //     */

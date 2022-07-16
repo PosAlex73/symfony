@@ -119,16 +119,13 @@ class UserFix extends Fixture
             $manager->flush($a);
         }
 
-        $restaurants = [];
         foreach (range(0, 50) as $_) {
             $r = new Restaurant();
-            $r->setTitle($f->title());
+            $r->setTitle($f->text(10));
             $r->setDescription($f->text());
             $r->setStatus(CommonStatuses::ACTIVE);
             $r->setAddress(array_pop($addrs));
             $r->setWorkTime($f->text(10));
-
-            $restaurants[] = $r;
 
             $manager->persist($r);
             $manager->flush($r);
@@ -143,10 +140,10 @@ class UserFix extends Fixture
                 $reviewUser = reset($users);
                 $rev->setReviewer($reviewUser);
                 $rev->setCreated($f->dateTime());
+                $rev->setStatus(CommonStatuses::ACTIVE);
                 $rev->setUpdated($f->dateTime());
                 $rev->setText($f->text(50));
                 $rev->setRestaurant($r);
-                $reviews[] = $rev;
                 $manager->persist($rev);
                 $manager->flush($rev);
             }
@@ -159,6 +156,7 @@ class UserFix extends Fixture
                 $d->setImage($f->imageUrl());
                 $d->setPrice(mt_rand(0, 1000));
                 $d->setRestaurant($r);
+                $d->setStatus(CommonStatuses::ACTIVE);
                 $d->setWeight(mt_rand(100, 500));
 
                 $manager->persist($d);

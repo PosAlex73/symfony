@@ -39,6 +39,16 @@ class DishRepository extends ServiceEntityRepository
         }
     }
 
+    public function getForIndex()
+    {
+        $dishes = $this->createQueryBuilder('d')
+            ->setMaxResults(20)
+            ->getQuery()
+            ->getResult();
+
+        return $dishes;
+    }
+
 //    /**
 //     * @return Dish[] Returns an array of Dish objects
 //     */

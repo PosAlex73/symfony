@@ -40,6 +40,9 @@ class Dish
     #[ORM\OneToOne(mappedBy: 'Dish', cascade: ['persist', 'remove'])]
     private ?OrderProduct $orderProduct = null;
 
+    #[ORM\Column(length: 1)]
+    private ?string $status = null;
+
     public function __construct()
     {
         $this->category = new ArrayCollection();
@@ -159,6 +162,23 @@ class Dish
         }
 
         $this->orderProduct = $orderProduct;
+
+        return $this;
+    }
+
+    public function __toString()
+    {
+        return $this->title;
+    }
+
+    public function getStatus(): ?string
+    {
+        return $this->status;
+    }
+
+    public function setStatus(string $status): self
+    {
+        $this->status = $status;
 
         return $this;
     }
