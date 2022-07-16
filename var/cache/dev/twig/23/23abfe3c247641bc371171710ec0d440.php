@@ -1181,6 +1181,6 @@ class __TwigTemplate_7421a48d450f4195f71cf57f997db5a5 extends Template
         </dd>
     </div>
 {% endmacro %}
-", "@EasyAdmin/crud/detail.html.twig", "/var/html/sym/vendor/easycorp/easyadmin-bundle/src/Resources/views/crud/detail.html.twig");
+", "@EasyAdmin/crud/detail.html.twig", "/var/html/symfony/vendor/easycorp/easyadmin-bundle/src/Resources/views/crud/detail.html.twig");
     }
 }

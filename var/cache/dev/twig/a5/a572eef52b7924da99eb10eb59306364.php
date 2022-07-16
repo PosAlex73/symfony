@@ -217,6 +217,6 @@ class __TwigTemplate_a07737d484aa84290eb3f24ce9940b0f extends Template
         </ul>
     </nav>
 </div>
-", "@EasyAdmin/crud/paginator.html.twig", "/var/html/sym/vendor/easycorp/easyadmin-bundle/src/Resources/views/crud/paginator.html.twig");
+", "@EasyAdmin/crud/paginator.html.twig", "/var/html/symfony/vendor/easycorp/easyadmin-bundle/src/Resources/views/crud/paginator.html.twig");
     }
 }

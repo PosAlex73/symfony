@@ -126,6 +126,7 @@ class UserFix extends Fixture
             $r->setStatus(CommonStatuses::ACTIVE);
             $r->setAddress(array_pop($addrs));
             $r->setWorkTime($f->text(10));
+            $r->setImage($f->imageUrl());
 
             $manager->persist($r);
             $manager->flush($r);

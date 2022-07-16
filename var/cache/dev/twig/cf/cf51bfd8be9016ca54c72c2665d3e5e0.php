@@ -900,6 +900,6 @@ class __TwigTemplate_1cd62d0469072c94b3e012901f07b75c extends Template
         {% endautoescape %}</script>
     </div>
 {% endmacro %}
-", "@WebProfiler/Collector/time.html.twig", "/var/html/sym/vendor/symfony/web-profiler-bundle/Resources/views/Collector/time.html.twig");
+", "@WebProfiler/Collector/time.html.twig", "/var/html/symfony/vendor/symfony/web-profiler-bundle/Resources/views/Collector/time.html.twig");
     }
 }

@@ -77,6 +77,6 @@ class __TwigTemplate_f900fc597cc6cee3dded77a495115bf8 extends Template
 {# @var field \\EasyCorp\\Bundle\\EasyAdminBundle\\Dto\\FieldDto #}
 {# @var entity \\EasyCorp\\Bundle\\EasyAdminBundle\\Dto\\EntityDto #}
 <time datetime=\"{{ field.value|date('c') }}\" title=\"{{ field.value|date('r') }}\">{{ field.formattedValue }}</time>
-", "@EasyAdmin/crud/field/datetime.html.twig", "/var/html/sym/vendor/easycorp/easyadmin-bundle/src/Resources/views/crud/field/datetime.html.twig");
+", "@EasyAdmin/crud/field/datetime.html.twig", "/var/html/symfony/vendor/easycorp/easyadmin-bundle/src/Resources/views/crud/field/datetime.html.twig");
     }
 }

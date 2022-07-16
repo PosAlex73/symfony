@@ -95,6 +95,6 @@ class __TwigTemplate_9a805cd2da3693b6bf80791b22ca0459 extends Template
         return new Source("{% extends '@EasyAdmin/page/content.html.twig' %}
 {% block content %}
     sdffsddfs
-{% endblock %}", "admin/index.html.twig", "/var/html/sym/templates/admin/index.html.twig");
+{% endblock %}", "admin/index.html.twig", "/var/html/symfony/templates/admin/index.html.twig");
     }
 }

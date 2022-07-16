@@ -72,6 +72,6 @@ class __TwigTemplate_50122bd5423d1570db87afcf6ab18272 extends Template
 {# @var field \\EasyCorp\\Bundle\\EasyAdminBundle\\Dto\\FieldDto #}
 {# @var entity \\EasyCorp\\Bundle\\EasyAdminBundle\\Dto\\EntityDto #}
 {{ field.formattedValue|trans|raw }}
-", "@EasyAdmin/crud/field/choice.html.twig", "/var/html/sym/vendor/easycorp/easyadmin-bundle/src/Resources/views/crud/field/choice.html.twig");
+", "@EasyAdmin/crud/field/choice.html.twig", "/var/html/symfony/vendor/easycorp/easyadmin-bundle/src/Resources/views/crud/field/choice.html.twig");
     }
 }

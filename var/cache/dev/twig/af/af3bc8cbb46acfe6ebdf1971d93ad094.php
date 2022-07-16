@@ -102,6 +102,6 @@ class __TwigTemplate_f68267af0ca69c5ce5552fbed5778a5e extends Template
         {{ field.formattedValue }}
     {% endif %}
 {% endif %}
-", "@EasyAdmin/crud/field/association.html.twig", "/var/html/sym/vendor/easycorp/easyadmin-bundle/src/Resources/views/crud/field/association.html.twig");
+", "@EasyAdmin/crud/field/association.html.twig", "/var/html/symfony/vendor/easycorp/easyadmin-bundle/src/Resources/views/crud/field/association.html.twig");
     }
 }

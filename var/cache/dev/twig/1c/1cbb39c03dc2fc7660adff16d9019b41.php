@@ -277,6 +277,6 @@ class __TwigTemplate_86a1483a16a9e9fc05270f78e5f98963 extends Template
     {% set attr = attr|merge({class: (attr.class|default('') ~ ' button')|trim}) %}
     {{- parent() -}}
 {%- endblock button_widget %}
-", "foundation_6_layout.html.twig", "/var/html/sym/vendor/symfony/twig-bridge/Resources/views/Form/foundation_6_layout.html.twig");
+", "foundation_6_layout.html.twig", "/var/html/symfony/vendor/symfony/twig-bridge/Resources/views/Form/foundation_6_layout.html.twig");
     }
 }

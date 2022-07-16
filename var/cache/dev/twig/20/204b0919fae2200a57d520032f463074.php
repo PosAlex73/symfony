@@ -204,6 +204,6 @@ class __TwigTemplate_1eda7644120068e2ceb83c21b60efb39 extends Template
     </button>
 </form>
 {% endblock %}
-", "security/login.html.twig", "/var/html/sym/templates/security/login.html.twig");
+", "security/login.html.twig", "/var/html/symfony/templates/security/login.html.twig");
     }
 }

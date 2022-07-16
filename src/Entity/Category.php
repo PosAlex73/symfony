@@ -6,6 +6,7 @@ use App\Repository\CategoryRepository;
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
+use function Symfony\Component\String\u;
 
 #[ORM\Entity(repositoryClass: CategoryRepository::class)]
 class Category
@@ -50,6 +51,11 @@ class Category
         $this->title = $title;
 
         return $this;
+    }
+
+    public function getShortDescription()
+    {
+        return substr($this->description, 0, 15) . '...';
     }
 
     public function getDescription(): ?string

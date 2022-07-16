@@ -2080,6 +2080,6 @@ class __TwigTemplate_d4e35bc38ae9fe363028cdc4290062d8 extends Template
         {{ tree.form_tree_details(childName, childData, forms_by_hash) }}
     {% endfor %}
 {% endmacro %}
-", "@WebProfiler/Collector/form.html.twig", "/var/html/sym/vendor/symfony/web-profiler-bundle/Resources/views/Collector/form.html.twig");
+", "@WebProfiler/Collector/form.html.twig", "/var/html/symfony/vendor/symfony/web-profiler-bundle/Resources/views/Collector/form.html.twig");
     }
 }

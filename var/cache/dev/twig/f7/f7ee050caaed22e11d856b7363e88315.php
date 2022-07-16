@@ -125,6 +125,6 @@ class __TwigTemplate_cf8040370b1c850b19a30c2ae4760093 extends Template
         {% for attr, value in css_asset.htmlAttributes %}{{ attr }}=\"{{ value|e('html_attr') }}\" {% endfor %}>
     {% endif %}
 {% endfor %}
-", "@EasyAdmin/includes/_css_assets.html.twig", "/var/html/sym/vendor/easycorp/easyadmin-bundle/src/Resources/views/includes/_css_assets.html.twig");
+", "@EasyAdmin/includes/_css_assets.html.twig", "/var/html/symfony/vendor/easycorp/easyadmin-bundle/src/Resources/views/includes/_css_assets.html.twig");
     }
 }

@@ -478,6 +478,6 @@ col-sm-10
         </div>{#--#}
     </div>
 {%- endblock checkbox_row %}
-", "bootstrap_3_horizontal_layout.html.twig", "/var/html/sym/vendor/symfony/twig-bridge/Resources/views/Form/bootstrap_3_horizontal_layout.html.twig");
+", "bootstrap_3_horizontal_layout.html.twig", "/var/html/symfony/vendor/symfony/twig-bridge/Resources/views/Form/bootstrap_3_horizontal_layout.html.twig");
     }
 }

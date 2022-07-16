@@ -79,6 +79,6 @@ License: https://github.com/symfony/symfony/blob/5.4/src/Symfony/Bridge/Twig/LIC
 We need to copy these files instead of relying on the templates available via the
 Symfony Twig Bridge to ensure that all applications building backends with EasyAdmin
 use the same version of the templates, even those still using Symfony 4.4.
-", "@EasyAdmin/symfony-form-themes/README.txt", "/var/html/sym/vendor/easycorp/easyadmin-bundle/src/Resources/views/symfony-form-themes/README.txt");
+", "@EasyAdmin/symfony-form-themes/README.txt", "/var/html/symfony/vendor/easycorp/easyadmin-bundle/src/Resources/views/symfony-form-themes/README.txt");
     }
 }

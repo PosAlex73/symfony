@@ -145,6 +145,6 @@ class __TwigTemplate_ff0a03726668a2f94a72b9d3eca755dd extends Template
         <img src=\"{{ asset(image) }}\">
     </div>
 {% endfor %}
-", "@EasyAdmin/crud/field/image.html.twig", "/var/html/sym/vendor/easycorp/easyadmin-bundle/src/Resources/views/crud/field/image.html.twig");
+", "@EasyAdmin/crud/field/image.html.twig", "/var/html/symfony/vendor/easycorp/easyadmin-bundle/src/Resources/views/crud/field/image.html.twig");
     }
 }

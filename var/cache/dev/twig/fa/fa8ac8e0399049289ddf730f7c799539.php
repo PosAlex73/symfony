@@ -154,6 +154,6 @@ class __TwigTemplate_ce810bc1b3857795837a94ffcaac51a9 extends Template
     </ul>
 </div>
 {% endblock %}
-", "auth/index.html.twig", "/var/html/sym/templates/auth/index.html.twig");
+", "auth/index.html.twig", "/var/html/symfony/templates/auth/index.html.twig");
     }
 }

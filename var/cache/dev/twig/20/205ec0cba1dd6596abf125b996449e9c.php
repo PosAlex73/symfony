@@ -120,6 +120,6 @@ class __TwigTemplate_0b5cda77cfba933df3bd9730aa6ba55a extends Template
         <label class=\"form-check-label\" for=\"{{ field.uniqueId }}\"></label>
     </div>
 {% endif %}
-", "@EasyAdmin/crud/field/boolean.html.twig", "/var/html/sym/vendor/easycorp/easyadmin-bundle/src/Resources/views/crud/field/boolean.html.twig");
+", "@EasyAdmin/crud/field/boolean.html.twig", "/var/html/symfony/vendor/easycorp/easyadmin-bundle/src/Resources/views/crud/field/boolean.html.twig");
     }
 }

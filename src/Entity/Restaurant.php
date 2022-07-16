@@ -36,6 +36,9 @@ class Restaurant
     #[ORM\OneToMany(mappedBy: 'restaurant', targetEntity: RestaurantReview::class, orphanRemoval: true)]
     private Collection $restaurantReviews;
 
+    #[ORM\Column(length: 1024, nullable: true)]
+    private ?string $image = null;
+
     public function __construct()
     {
         $this->dishes = new ArrayCollection();
@@ -50,6 +53,11 @@ class Restaurant
     public function getTitle(): ?string
     {
         return $this->title;
+    }
+
+    public function getShortDescription()
+    {
+        return substr($this->description, 0,50) . '...';
     }
 
     public function setTitle(string $title): self
@@ -170,5 +178,17 @@ class Restaurant
     public function __toString()
     {
         return $this->title;
+    }
+
+    public function getImage(): ?string
+    {
+        return $this->image;
+    }
+
+    public function setImage(string $image): self
+    {
+        $this->image = $image;
+
+        return $this;
     }
 }

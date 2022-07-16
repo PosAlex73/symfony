@@ -139,6 +139,6 @@ class __TwigTemplate_fe4486a5944fe84c62ab40bf4bedc125 extends Template
         </div>
     </div>
 {% endif %}
-", "@EasyAdmin/crud/field/text_editor.html.twig", "/var/html/sym/vendor/easycorp/easyadmin-bundle/src/Resources/views/crud/field/text_editor.html.twig");
+", "@EasyAdmin/crud/field/text_editor.html.twig", "/var/html/symfony/vendor/easycorp/easyadmin-bundle/src/Resources/views/crud/field/text_editor.html.twig");
     }
 }

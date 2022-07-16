@@ -154,6 +154,6 @@ class __TwigTemplate_816bfe428eddf6698257d4cda30fec54 extends Template
     </ul>
 </div>
 {% endblock %}
-", "test/test/index.html.twig", "/var/html/sym/templates/test/test/index.html.twig");
+", "test/test/index.html.twig", "/var/html/symfony/templates/test/test/index.html.twig");
     }
 }

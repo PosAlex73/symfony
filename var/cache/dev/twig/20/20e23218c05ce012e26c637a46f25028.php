@@ -104,6 +104,6 @@ class __TwigTemplate_b804d727824aad470efffce48225004f extends Template
 {% else %}
     {{ field.formattedValue }}
 {% endif %}
-", "@EasyAdmin/crud/field/array.html.twig", "/var/html/sym/vendor/easycorp/easyadmin-bundle/src/Resources/views/crud/field/array.html.twig");
+", "@EasyAdmin/crud/field/array.html.twig", "/var/html/symfony/vendor/easycorp/easyadmin-bundle/src/Resources/views/crud/field/array.html.twig");
     }
 }

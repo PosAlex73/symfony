@@ -280,6 +280,10 @@ $catalogueEn = new MessageCatalogue('en', array (
     'The link to verify your email is invalid. Please request a new link.' => 'The link to verify your email is invalid. Please request a new link.',
     'The link to verify your email appears to be for a different account or email. Please request a new link.' => 'The link to verify your email appears to be for a different account or email. Please request a new link.',
   ),
+  'messages' => 
+  array (
+    'test' => 'testwrewrwe',
+  ),
 ));
 $catalogue->addFallbackCatalogue($catalogueEn);
 

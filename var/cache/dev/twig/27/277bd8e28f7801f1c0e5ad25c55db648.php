@@ -87,6 +87,6 @@ class __TwigTemplate_28d8feaf2fe8e01a251665ec1c926fda extends Template
 {% else %}
     {{ field.formattedValue }}
 {% endif %}
-", "@EasyAdmin/crud/field/collection.html.twig", "/var/html/sym/vendor/easycorp/easyadmin-bundle/src/Resources/views/crud/field/collection.html.twig");
+", "@EasyAdmin/crud/field/collection.html.twig", "/var/html/symfony/vendor/easycorp/easyadmin-bundle/src/Resources/views/crud/field/collection.html.twig");
     }
 }

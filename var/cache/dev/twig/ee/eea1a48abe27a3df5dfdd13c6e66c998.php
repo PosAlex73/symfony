@@ -46,7 +46,7 @@ class __TwigTemplate_5a352e848ca3f597b9fd3f8c7927f40a extends Template
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "template", "@EasyAdmin/page/login_minimal.html.twig"));
 
         // line 3
-        $context["__internal_24b810cabaa13e7f980546c15db2157608b5ebe05a640fe24931d21ea2620e52"] = (($context["translation_domain"]) ?? ("messages"));
+        $context["__internal_65a9f734850208641aa62db180facbc000d7d522979b3724f21961190e2d9a76"] = (($context["translation_domain"]) ?? ("messages"));
         // line 4
         echo "<!DOCTYPE html>
 <html>
@@ -269,6 +269,6 @@ class __TwigTemplate_5a352e848ca3f597b9fd3f8c7927f40a extends Template
     </body>
 </html>
 
-", "@EasyAdmin/page/login_minimal.html.twig", "/var/html/sym/vendor/easycorp/easyadmin-bundle/src/Resources/views/page/login_minimal.html.twig");
+", "@EasyAdmin/page/login_minimal.html.twig", "/var/html/symfony/vendor/easycorp/easyadmin-bundle/src/Resources/views/page/login_minimal.html.twig");
     }
 }

@@ -77,6 +77,6 @@ class __TwigTemplate_263785b8b4d0d8726dc6a108e57219cb extends Template
 {# @var field \\EasyCorp\\Bundle\\EasyAdminBundle\\Dto\\FieldDto #}
 {# @var entity \\EasyCorp\\Bundle\\EasyAdminBundle\\Dto\\EntityDto #}
 <img class=\"image-avatar\" height=\"{{ field.customOptions.get('height') }}\" width=\"{{ field.customOptions.get('height') }}\" src=\"{{ field.formattedValue }}\">
-", "@EasyAdmin/crud/field/avatar.html.twig", "/var/html/sym/vendor/easycorp/easyadmin-bundle/src/Resources/views/crud/field/avatar.html.twig");
+", "@EasyAdmin/crud/field/avatar.html.twig", "/var/html/symfony/vendor/easycorp/easyadmin-bundle/src/Resources/views/crud/field/avatar.html.twig");
     }
 }
