@@ -39,6 +39,16 @@ class RestaurantRepository extends ServiceEntityRepository
         }
     }
 
+    public function getForIndex()
+    {
+        $rests = $this->createQueryBuilder('d')
+            ->setMaxResults(10)
+            ->getQuery()
+            ->getResult();
+
+        return $rests;
+    }
+
 //    /**
 //     * @return Restaurant[] Returns an array of Restaurant objects
 //     */
