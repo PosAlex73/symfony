@@ -3,6 +3,7 @@
 namespace App\Repository;
 
 use App\Entity\Dish;
+use App\Enums\CommonStatuses;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
 use Doctrine\Persistence\ManagerRegistry;
 
@@ -42,35 +43,32 @@ class DishRepository extends ServiceEntityRepository
     public function getForIndex()
     {
         $dishes = $this->createQueryBuilder('d')
+            ->where('d.status = :status')
             ->setMaxResults(20)
+            ->setParameters(['status' => CommonStatuses::ACTIVE])
             ->getQuery()
             ->getResult();
 
         return $dishes;
     }
 
-//    /**
-//     * @return Dish[] Returns an array of Dish objects
-//     */
-//    public function findByExampleField($value): array
-//    {
-//        return $this->createQueryBuilder('d')
-//            ->andWhere('d.exampleField = :val')
-//            ->setParameter('val', $value)
-//            ->orderBy('d.id', 'ASC')
-//            ->setMaxResults(10)
-//            ->getQuery()
-//            ->getResult()
-//        ;
-//    }
+    public function getByRestaurantActive(int $id)
+    {
+        return $this->createQueryBuilder('d')
+            ->where('d.status = :status')
+            ->andWhere('d.restaurant = :id')
+            ->setParameters(['status' => CommonStatuses::ACTIVE, 'id' => $id])
+            ->getQuery()
+            ->getResult();
+    }
 
-//    public function findOneBySomeField($value): ?Dish
-//    {
-//        return $this->createQueryBuilder('d')
-//            ->andWhere('d.exampleField = :val')
-//            ->setParameter('val', $value)
-//            ->getQuery()
-//            ->getOneOrNullResult()
-//        ;
-//    }
+    public function getByCategory($id)
+    {
+        $dishClass = Dish::class;
+        $em = $this->getEntityManager();
+        $query = $em->createQuery("SELECT d, c FROM {$dishClass} d INNER JOIN d.category c WHERE d.id = :category_id");
+        $query->setParameter('category_id', $id);
+
+        return $query->execute();
+    }
 }

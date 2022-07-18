@@ -121,6 +121,15 @@ class Dish
         return $this->category;
     }
 
+    public function addCategories(array $categories)
+    {
+        foreach ($categories as $category) {
+            $this->addCategory($category);
+        }
+
+        return $this;
+    }
+
     public function addCategory(Category $category): self
     {
         if (!$this->category->contains($category)) {
